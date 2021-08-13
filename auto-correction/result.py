@@ -12,7 +12,6 @@ def result(userlist):
                 output.write(str(item).translate(str.maketrans({'{': '', '}': '', '\'' : ''})) + "\n")
     except Exception as e:
         print(e)
-        return "results"
 
 ##########################
 ##########################
