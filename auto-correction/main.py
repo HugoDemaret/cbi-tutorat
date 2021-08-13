@@ -14,8 +14,8 @@ def main():
             userDict = csv.DictReader(userInput)
             userlist = analyse(correctDict,userDict)
             result(userlist)
-    except Exception:
-        return "main"
+    except Exception as e:
+        print(e)
 ##########################
 ##########################
 
