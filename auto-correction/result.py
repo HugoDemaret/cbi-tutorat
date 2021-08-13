@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+#Constants:
+OUTPUT="output/results.txt"
+
 #Script starts here:
 ##########################
 def result(userlist):
@@ -7,7 +10,7 @@ def result(userlist):
         result: list -> string
     '''
     try:
-        with open("output/results.txt", mode='w', encoding='utf-8-sig') as output:
+        with open(OUTPUT, mode='w', encoding='utf-8-sig') as output:
             for item in userlist:
                 output.write(str(item).translate(str.maketrans({'{': '', '}': '', '\'' : ''})) + "\n")
     except Exception as e:
