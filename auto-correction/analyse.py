@@ -5,21 +5,6 @@ import ast
 #Start of the script
 ##########################
 
-# def parse(dictionary):
-#     '''This function removes useless information from dictionary 
-#         parse: dict -> dict
-#     '''
-#     try:
-#         print("parse +try")
-#         for i in dictionary:
-#             del i["User display name"]
-#             del i["Timestamp"]
-#         return dictionary
-#     except Exception as e:
-#         print(e)
-#         return "parse"
-##########################
-##########################
 
 def analyse(correctDict,userDict):
     '''This function analyses and compares user inputs with correction
