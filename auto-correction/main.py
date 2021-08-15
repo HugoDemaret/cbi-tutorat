@@ -2,10 +2,11 @@
 
 #Useful imports
 from analyse import analyse
-from result import result
+from result import result, printstatistics
+from statistics_auto import statistics
 import csv
 #Constants
-VERSION="1.0.1"
+VERSION="1.0.5"
 INPUT_CORRECT="input/correction.csv"
 INPUT_USER="input/userinput.csv"
 ##########################
@@ -19,6 +20,8 @@ def main():
             userDict = csv.DictReader(userInput)
             userlist = analyse(correctDict,userDict)
             result(userlist)
+            stats = statistics(userlist)
+            printstatistics(stats)
             print("Done!")
     except Exception as e:
         print(e)
