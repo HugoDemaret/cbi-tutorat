@@ -3,7 +3,8 @@
 <h2>Ici vous trouverez les scripts, programmes et fichiers de configuration montrés et utilisés en tutorat de CBI</h2>
 
 <h2>Pour les installer : </h2>
->git clone https://github.com/HugoDemaret/cbi-tutorat.git
+
+> git clone https://github.com/HugoDemaret/cbi-tutorat.git
 
 <strong>Quelques liens utiles : </strong>
 
