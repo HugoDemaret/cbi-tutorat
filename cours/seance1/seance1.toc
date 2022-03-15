@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Présentation}{3}{0}{1}
+\beamer@sectionintoc {2}{Linux, c'est quoi ?}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Linux en quelques exemples}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Distro ?}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Comment choisir un OS ?}{9}{0}{2}
+\beamer@sectionintoc {3}{Première installation}{10}{0}{3}
+\beamer@sectionintoc {4}{Prise en main}{13}{0}{4}
+\beamer@sectionintoc {5}{Premières utilisations}{14}{0}{5}
+\beamer@sectionintoc {6}{Install, boot et config}{15}{0}{6}

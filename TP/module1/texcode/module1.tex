@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{algpseudocode}
+\usepackage[]{algorithm2e}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usetikzlibrary{automata}
+
+\title{Tutorat CBI : Module 1 (TP)}
+\author{Hugo Demaret}
+\date{2021-2022}
+\begin{document}
+\maketitle
+    \section*{Partie I}
+        \subsection*{Installation de Linux}
+            \subsubsection*{Prérequis}
+                \begin{table}[h]
+                    \begin{tabular}{|l|c|c|p{5cm}}
+                        \hline
+                        \textit{Prérequis}&\textit{Cochez si acquis}\\
+                        \hline
+                        \hline
+                        \textrm{Connaissance basique d'Unix}&\\
+                        \hline
+                        \textrm{Ordinateur}&\\
+                        \hline
+                        \textrm{Media d'installation (clef usb, carte SD...)}&\\
+                        \hline
+                    \end{tabular}
+                \end{table}
+            \subsubsection*{Création du media}
+                \textit{Suivez les étapes ci-dessous :}\\
+                \begin{algorithm}[H]
+                    \KwData{Un media sans Linux, Liste des prérequis}
+                    \KwResult{Un media avec Linux}
+                    \While{(pas tout lu) AND (pas tout compris)}{
+                        Lire jusqu'à comprendre\;
+                        Poser des questions\;
+                    }
+                    \While{Media sans Linux}{
+                        Télécharger l'image (en .iso) de la distribution de votre choix\;
+                        \uIf{Sur Windows}{
+                            Installer le logiciel "Rufus"\;
+                            Lire la documentation de "Rufus"\;
+                            Suivre la documentation de "Rufus"\;
+                        }
+                        \uElseIf{Sur MacOS}{
+                            Installer le logiciel "Balena Etcher"\;
+                            Suivre la documentation de "Balena Etcher"\;
+                        }
+                        \uElseIf{Sur Linux}{
+                            Brancher le media\;
+                            Touver le chemin d'accès au media\;
+                            Démonter le media de l'ordinateur\;
+                            Formater le media (exfat)\;
+                            Utiliser la commande dd (attention, commande dangereuse)\;
+                        }
+                    }
+                    \caption{Comment créer le média d'installation}
+                   \end{algorithm}
+        \subsection*{}
+\end{document}
